@@ -15,3 +15,12 @@ Dev Proccess:
 - write code
 - commit and push
 - profit (automatically deployed to heroku)
+
+----------------------------------------------
+
+STEPS TO PREPARE API FOR HEROKU DEPLOYMENT:
+- Make the port dynamic.
+- Setup a "start" script that uses `node` (not `nodemon`) to run server.
+
+
+(The environemnt is the platform(operating system/place) where your app runs.)
